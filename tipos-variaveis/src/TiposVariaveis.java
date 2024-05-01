@@ -1,6 +1,8 @@
 public class TiposVariaveis {
     public static void main(String[] args) throws Exception {
         double salarioMinimo = 2500;
+        System.out.println(salarioMinimo);
+
 
         short numeroCurto = 1;
         int numeroNormal = numeroCurto;
@@ -10,7 +12,11 @@ public class TiposVariaveis {
         numero = 10;
 
         System.out.println(numero);
+        System.out.println(numeroCurto2);
 
         final double VALOR_DE_PI = 3.14;
+
+        System.out.println(VALOR_DE_PI);
+
     }
 }
